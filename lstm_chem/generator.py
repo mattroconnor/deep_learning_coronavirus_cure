@@ -1,6 +1,6 @@
 from tqdm import tqdm
 import numpy as np
-from lstm_chem.utils.smiles_tokenizer import SmilesTokenizer
+from lstm_chem.utils.smiles_tokenizer2 import SmilesTokenizer
 
 
 class LSTMChemGenerator(object):

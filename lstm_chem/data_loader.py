@@ -3,7 +3,7 @@ import os
 import numpy as np
 from tqdm import tqdm
 from tensorflow.keras.utils import Sequence
-from lstm_chem.utils.smiles_tokenizer import SmilesTokenizer
+from lstm_chem.utils.smiles_tokenizer2 import SmilesTokenizer
 
 
 class DataLoader(Sequence):

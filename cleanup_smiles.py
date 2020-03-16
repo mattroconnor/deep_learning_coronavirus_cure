@@ -5,7 +5,7 @@ import os
 from tqdm import tqdm
 from rdkit import Chem, RDLogger
 from rdkit.Chem import MolStandardize
-from lstm_chem.utils.smiles_tokenizer import SmilesTokenizer
+from lstm_chem.utils.smiles_tokenizer2 import SmilesTokenizer
 
 RDLogger.DisableLog('rdApp.*')
 
